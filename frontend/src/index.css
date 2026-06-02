@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fira Code', monospace;
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+}
+
+/* Minimalist ASCII UI Panels */
+.hacker-panel {
+  background: transparent;
+  padding: 24px;
+}
+
+.ascii-art {
+  white-space: pre;
+  font-family: monospace;
+  font-size: 10px;
+  line-height: 12px;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.hacker-input {
+  background: #000;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 10px 14px;
+  font-family: 'Fira Code', monospace;
+  width: 100%;
+  outline: none;
+}
+
+.hacker-input:focus {
+  border-color: #666;
+}
+
+.hacker-input::placeholder {
+  color: #444;
+}
+
+.hacker-btn {
+  background: #000;
+  border: 1px solid #333;
+  color: #888;
+  padding: 10px 16px;
+  font-family: 'Fira Code', monospace;
+  font-weight: 400;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  letter-spacing: 2px;
+}
+
+.hacker-btn:hover:not(:disabled) {
+  color: #fff;
+  border-color: #fff;
+}
+
+.hacker-btn:disabled {
+  border-color: #222;
+  color: #222;
+  cursor: not-allowed;
+}
+
+.hacker-btn-danger {
+  border-color: #333;
+  color: #888;
+}
+.hacker-btn-danger:hover:not(:disabled) {
+  color: #ff3333;
+  border-color: #ff3333;
+}
+
+/* Text & Colors */
+.text-danger { color: #ff3333; }
+.text-accent { color: #fff; } 
+.text-muted { color: #555; }
+
+/* Animations */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.cursor-blink {
+  animation: blink 1.2s infinite;
+}
+
+.border-box {
+  border: 1px solid #1a1a1a;
+  padding: 20px;
+}
+
+input:focus {
+  border-bottom: 1px solid #fff !important;
+}
