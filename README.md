@@ -6,8 +6,8 @@
 ---
 <table align="center">
   <tr align="center">
-    <td><b>📸 이미지 1 (좌측 상단)</b></td>
-    <td><b>📸 이미지 2 (우측 상단)</b></td>
+    <td><b>로그인 화면</b></td>
+    <td><b>접속 화면</b></td>
   </tr>
   <tr align="center">
     <td>
@@ -18,8 +18,8 @@
     </td>
   </tr>
   <tr align="center">
-    <td><b>📸 이미지 3 (좌측 하단)</b></td>
-    <td><b>📸 이미지 4 (우측 하단)</b></td>
+    <td><b>경매 진행 화면</b></td>
+    <td><b>경매 결과 화면</b></td>
   </tr>
   <tr align="center">
     <td>
