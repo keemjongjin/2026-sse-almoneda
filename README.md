@@ -3,6 +3,33 @@
 이 프로젝트는 **SSE(단방향 데이터 스트림)**와 **WebSocket(양방향 실시간 통신)**을 활용하여 구현된 **다크웹 컨셉의 더치 경매 심리 게임**입니다.
 
 단순한 경매를 넘어, 시간이 지날수록 가격이 떨어지는 '더치 옥션' 방식과, 구매하기 전까지는 진짜 가치를 알 수 없는 '블라인드 배팅(하이리스크 하이리턴)' 요소를 결합해 극강의 눈치싸움을 유도합니다.
+---
+<table align="center">
+  <tr align="center">
+    <td><b>📸 이미지 1 (좌측 상단)</b></td>
+    <td><b>📸 이미지 2 (우측 상단)</b></td>
+  </tr>
+  <tr align="center">
+    <td>
+      <img src="https://github.com/user-attachments/assets/e3e5f024-7c5a-4fff-97ec-726c04b79178" width="380px" alt="Image 1" />
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/a48e4a9b-6907-4517-9efc-a68011719055" width="380px" alt="Image 2" />
+    </td>
+  </tr>
+  <tr align="center">
+    <td><b>📸 이미지 3 (좌측 하단)</b></td>
+    <td><b>📸 이미지 4 (우측 하단)</b></td>
+  </tr>
+  <tr align="center">
+    <td>
+      <img src="https://github.com/user-attachments/assets/0df50655-f3a3-4f92-ad4e-bf7c01e5c7a3" width="380px" alt="Image 3" />
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/b341b9bc-741e-4ff0-81ec-f9f46b379df8" width="380px" alt="Image 4" />
+    </td>
+  </tr>
+</table>
 
 ---
 
